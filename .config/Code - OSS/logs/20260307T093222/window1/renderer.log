@@ -1,8 +1,0 @@
-2026-03-07 09:32:24.144 [info] Started local extension host with pid 399350.
-2026-03-07 09:32:26.909 [error] [Extension Host] (node:399350) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-(Use `exe --trace-deprecation ...` to show where the warning was created)
-2026-03-07 09:32:28.396 [info] [perf] Render performance baseline is 266ms
-2026-03-07 09:32:50.222 [error] [chat setup] install: error undefined
-2026-03-07 09:32:58.011 [error] [chat setup] install: error NotFound: The extension 'GitHub.copilot-chat' cannot be installed because it was not found.
-2026-03-07 09:35:01.799 [warning] [backup tracker] suspended, ignoring unregister event file:///home/assassin/vardio/package.json 
-2026-03-07 09:35:01.799 [warning] [backup tracker] suspended, ignoring unregister event file:///home/assassin/vardio/frontend/package.json 

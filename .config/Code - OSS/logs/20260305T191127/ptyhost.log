@@ -1,1 +1,0 @@
-2026-03-05 19:11:54.019 [error] Failed to set sticky bit on /tmp/assassin-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/assassin-code-oss-zsh'

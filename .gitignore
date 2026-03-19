@@ -1,0 +1,9 @@
+.config/discord/
+.config/chromium/
+.config/Code/
+.config/Code - OSS/
+.config/VSCodium/
+.config/Electron/
+.config/vesktop/sessionData/
+.config/spotify/
+.config/google-breakpad/

@@ -1,8 +1,0 @@
-2026-03-05 19:11:31.133 [info] Started local extension host with pid 91082.
-2026-03-05 19:11:31.348 [info] Started initializing default profile extensions in extensions installation folder. file:///home/assassin/.vscode-oss/extensions
-2026-03-05 19:11:32.028 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/assassin/.vscode-oss/extensions
-2026-03-05 19:11:35.160 [info] [perf] Render performance baseline is 78ms
-2026-03-05 19:11:46.064 [info] Started local extension host with pid 92586.
-2026-03-05 19:11:49.220 [info] [perf] Render performance baseline is 48ms
-2026-03-05 19:12:36.422 [warning] [backup tracker] suspended, ignoring unregister event file:///home/assassin/vardio/frontend/package.json 
-2026-03-05 19:12:36.423 [warning] [backup tracker] suspended, ignoring unregister event file:///home/assassin/vardio/package.json 

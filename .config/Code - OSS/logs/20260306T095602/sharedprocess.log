@@ -1,6 +1,0 @@
-2026-03-06 09:59:15.447 [info] Getting Manifest... s-nlf-fh.glassit
-2026-03-06 09:59:21.908 [info] Installing extension: s-nlf-fh.glassit {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/assassin/.vscode-oss/extensions/extensions.json","path":"/home/assassin/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.109.5","date":"2026-02-22T09:41:58.213Z"}}
-2026-03-06 09:59:29.406 [info] Extension signature verification result for s-nlf-fh.glassit: Success. Executed: true. Duration: 4968ms.
-2026-03-06 09:59:29.568 [info] Extracted extension to file:///home/assassin/.vscode-oss/extensions/s-nlf-fh.glassit-0.2.3-universal: s-nlf-fh.glassit
-2026-03-06 09:59:29.583 [info] Renamed to /home/assassin/.vscode-oss/extensions/s-nlf-fh.glassit-0.2.3-universal
-2026-03-06 09:59:29.606 [info] Extension installed successfully: s-nlf-fh.glassit vscode-userdata:/home/assassin/.vscode-oss/extensions/extensions.json
