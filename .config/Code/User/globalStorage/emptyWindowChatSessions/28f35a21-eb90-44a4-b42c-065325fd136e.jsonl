@@ -1,0 +1,2 @@
+{"kind":0,"v":{"version":3,"creationDate":1772856568040,"initialLocation":"panel","responderUsername":"","sessionId":"28f35a21-eb90-44a4-b42c-065325fd136e","hasPendingEdits":false,"requests":[],"pendingRequests":[],"inputState":{"attachments":[],"mode":{"id":"agent","kind":"agent"},"inputText":"","selections":[{"startLineNumber":1,"startColumn":1,"endLineNumber":1,"endColumn":1,"selectionStartLineNumber":1,"selectionStartColumn":1,"positionLineNumber":1,"positionColumn":1}],"contrib":{"chatDynamicVariableModel":[]}}}}
+{"kind":1,"k":["responderUsername"],"v":"GitHub Copilot"}

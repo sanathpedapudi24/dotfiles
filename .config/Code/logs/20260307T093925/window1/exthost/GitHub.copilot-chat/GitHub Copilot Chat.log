@@ -1,0 +1,72 @@
+2026-03-07 09:42:56.744 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-07 09:42:56.744 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-07 09:42:56.744 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-07 09:42:56.744 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-07 09:42:59.954 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-03-07 09:43:00.017 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/node_modules/@github/copilot/sdk/prebuilds/linux-x64
+2026-03-07 09:43:00.017 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-03-07 09:43:00.122 [info] Found 1 entries to copy: pty.node
+2026-03-07 09:43:00.126 [info] Found 1 entries to copy: rg
+2026-03-07 09:43:00.127 [info] [CopilotCLI] MCP server started. Lock file: /home/assassin/.local/state/.copilot/ide/5c2062ec-1f62-4daa-b4bb-c31d99cd084c.lock
+2026-03-07 09:43:00.127 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-Ue0M6m/mcp.sock#%2Fmcp
+2026-03-07 09:43:02.016 [info] Using the Electron fetcher.
+2026-03-07 09:59:36.411 [info] Logged in as sanathpedapudi24
+2026-03-07 09:59:36.915 [info] Got Copilot token for sanathpedapudi24
+2026-03-07 09:59:36.915 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-07 09:59:36.931 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-07 09:59:36.984 [info] activationBlocker from 'languageModelAccess' took for 997095ms
+2026-03-07 09:59:37.112 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-07 09:59:37.112 [info] copilot token sku: free_limited_copilot
+2026-03-07 09:59:37.112 [info] ConversationFeature: Activating contributions
+2026-03-07 09:59:37.112 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-07 09:59:37.135 [info] Registering default platform agent...
+2026-03-07 09:59:37.135 [info] [ChatDebugLogProvider] Registering chat debug log provider
+2026-03-07 09:59:37.135 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-07 09:59:37.136 [info] [code-referencing] Public code references are enabled.
+2026-03-07 09:59:37.136 [info] activationBlocker from 'conversationFeature' took for 997262ms
+2026-03-07 09:59:37.141 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-07 09:59:37.146 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-07 09:59:39.739 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-07 09:59:40.365 [info] Fetched model metadata in 1000448ms 91cf4393-d210-4d3a-9956-86641d84e730
+2026-03-07 09:59:46.807 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-07 09:59:46.807 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-07 09:59:46.807 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-07 09:59:46.807 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-07 09:59:47.322 [info] Logged in as sanathpedapudi24
+2026-03-07 09:59:47.328 [info] Using the Electron fetcher.
+2026-03-07 09:59:47.856 [info] Got Copilot token for sanathpedapudi24
+2026-03-07 09:59:47.856 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-07 09:59:47.977 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-07 09:59:49.820 [info] ConversationFeature: Copilot token already available
+2026-03-07 09:59:49.820 [info] ConversationFeature: Activating contributions
+2026-03-07 09:59:49.820 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-07 09:59:49.841 [info] Registering default platform agent...
+2026-03-07 09:59:49.842 [info] [ChatDebugLogProvider] Registering chat debug log provider
+2026-03-07 09:59:49.846 [info] activationBlocker from 'conversationFeature' took for 117ms
+2026-03-07 09:59:49.882 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-07 09:59:49.884 [info] activationBlocker from 'languageModelAccess' took for 145ms
+2026-03-07 09:59:49.925 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-07 09:59:50.325 [info] Fetched model metadata in 538ms 836d914b-c1c9-4010-a274-86d085061c30
+2026-03-07 09:59:50.332 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-07 09:59:50.333 [info] ccreq:0582e34c.copilotmd | markdown
+2026-03-07 09:59:50.342 [info] [CopilotCLI] MCP server started. Lock file: /home/assassin/.local/state/.copilot/ide/6a1adbbe-10bd-4a54-a86d-41f67992cb4c.lock
+2026-03-07 09:59:50.342 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-ifo8Uy/mcp.sock#%2Fmcp
+2026-03-07 09:59:51.223 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-07 09:59:51.230 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-07 09:59:51.230 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-07 09:59:52.613 [info] message 0 returned. finish reason: [stop]
+2026-03-07 09:59:52.617 [info] request done: requestId: [31a1acd7-6e04-480e-9c19-d8f4ac9c4153] model deployment ID: []
+2026-03-07 09:59:52.618 [info] ccreq:dc76402a.copilotmd | success | gpt-4o-mini-2024-07-18 | 714ms | [title]
+2026-03-07 10:00:05.696 [info] message 0 returned. finish reason: [stop]
+2026-03-07 10:00:05.699 [info] request done: requestId: [8abd8c15-aeb9-4045-8b62-c8d7f2d6fbc1] model deployment ID: []
+2026-03-07 10:00:05.700 [info] ccreq:3b13d830.copilotmd | success | gpt-4o-mini-2024-07-18 | 1163ms | [progressMessages]
+2026-03-07 10:00:05.765 [info] message 0 returned. finish reason: [stop]
+2026-03-07 10:00:05.767 [info] request done: requestId: [7a8b2110-543b-423d-a911-f587416e4600] model deployment ID: []
+2026-03-07 10:00:05.767 [info] ccreq:9d82600c.copilotmd | success | gpt-4o-mini-2024-07-18 | 1225ms | [progressMessages]
+2026-03-07 10:00:09.438 [info] ccreq:1339cc12.copilotmd | success | oswe-vscode-prime -> capi-noe-ptuc-h200-oswe-vscode-prime | 4523ms | [panel/editAgent]
+2026-03-07 10:00:09.446 [info] message 0 returned. finish reason: [stop]
+2026-03-07 10:00:09.448 [info] request done: requestId: [9615a2d5-2540-44b9-9518-a19fcac61f1f] model deployment ID: []
+2026-03-07 10:00:09.450 [info] ccreq:6e70f644.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 920ms | [copilotLanguageModelWrapper]
+2026-03-07 10:00:09.477 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-07 10:00:26.216 [info] ccreq:1b1aee25.copilotmd | success | oswe-vscode-prime -> capi-noe-ptuc-h200-oswe-vscode-prime | 3307ms | [panel/editAgent]
+2026-03-07 10:00:26.236 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined

@@ -1,0 +1,27 @@
+2026-03-05 19:11:32.795 [info] Extension host with pid 91082 started
+2026-03-05 19:11:32.964 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-05 19:11:33.038 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-05 19:11:33.177 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-05 19:11:33.264 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-05 19:11:33.397 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-05 19:11:33.700 [info] Eager extensions activated
+2026-03-05 19:11:33.709 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-05 19:11:33.716 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-05 19:11:44.670 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-05 19:11:44.693 [info] Extension host with pid 91082 exiting with code 0
+2026-03-05 19:11:47.612 [info] Extension host with pid 92586 started
+2026-03-05 19:11:47.612 [info] Skipping acquiring lock for /home/assassin/.config/Code - OSS/User/workspaceStorage/577e0ee005deb17b62c84d5ab652b1e6.
+2026-03-05 19:11:47.648 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-05 19:11:47.723 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-05 19:11:47.873 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-03-05 19:11:47.879 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-03-05 19:11:47.979 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-05 19:11:48.135 [info] Eager extensions activated
+2026-03-05 19:11:48.153 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-05 19:11:48.158 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-05 19:11:50.714 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-03-05 19:11:53.401 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-03-05 19:11:53.421 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-03-05 19:11:53.451 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-03-05 19:12:36.392 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-05 19:12:36.415 [info] Extension host with pid 92586 exiting with code 0

@@ -1,0 +1,31 @@
+2026-03-06 09:56:06.565 [info] Extension host with pid 63422 started
+2026-03-06 09:56:06.565 [info] Skipping acquiring lock for /home/assassin/.config/Code - OSS/User/workspaceStorage/577e0ee005deb17b62c84d5ab652b1e6.
+2026-03-06 09:56:06.725 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-06 09:56:06.779 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-06 09:56:06.865 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-06 09:56:06.869 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-03-06 09:56:06.943 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-06 09:56:07.091 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-06 09:56:07.332 [info] Eager extensions activated
+2026-03-06 09:56:07.365 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-06 09:56:07.368 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-06 09:56:12.006 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-03-06 09:56:12.032 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-03-06 09:56:12.056 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-03-06 09:59:29.814 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: false, activationEvent: '*'
+2026-03-06 09:59:29.932 [error] Activating extension s-nlf-fh.glassit failed due to an error:
+2026-03-06 09:59:29.932 [error] Error: Command failed: xprop -root | grep '_NET_CLIENT_LIST(WINDOW)'
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at checkExecSyncError (node:child_process:930:11)
+	at Object.execSync (node:child_process:1002:15)
+	at Object.execSync (node:electron/js2c/node_init:2:17346)
+	at activate (/home/assassin/.vscode-oss/extensions/s-nlf-fh.glassit-0.2.3-universal/extension.js:50:39)
+	at i4.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:15385)
+	at i4.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:15130)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13288
+	at async mA.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:13398)
+	at async mA.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:13361)
+	at async mA.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:12817)
+2026-03-06 09:59:51.351 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-06 09:59:51.382 [info] Extension host with pid 63422 exiting with code 0

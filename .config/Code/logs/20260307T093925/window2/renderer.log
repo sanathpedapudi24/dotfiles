@@ -1,0 +1,39 @@
+2026-03-07 10:12:25.977 [info] Started local extension host with pid 593839.
+2026-03-07 10:12:27.636 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-07 10:12:27.958 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-07 10:12:29.981 [error] [Extension Host] (node:593839) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-07 10:12:30.051 [error] [Extension Host] (node:593839) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-07 10:12:31.781 [info] [perf] Render performance baseline is 320ms
+2026-03-07 10:12:48.368 [info] Started local extension host with pid 595674.
+2026-03-07 10:12:49.662 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-07 10:12:50.059 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-07 10:12:51.302 [info] [perf] Render performance baseline is 231ms
+2026-03-07 10:12:57.707 [error] [Extension Host] (node:595674) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-07 10:12:57.708 [error] [Extension Host] (node:595674) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-07 10:15:17.339 [error] Cancelled: Canceled: Canceled
+    at cYe.getLatestRawGalleryExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:51794)
+    at async cYe.getLatestRawGalleryExtensionWithFallback (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:50362)
+    at async cYe.getLatestGalleryExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38879)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38136
+    at async Promise.all (index 4)
+    at async cYe.getExtensionsUsingResourceApi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38090)
+    at async cYe.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:36552)
+    at async T8.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3388:21087)
+    at async mKt.getInstallableRecommendations (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:20954)
+    at async mKt.getAllRecommendationsModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:24595)
+    at async mKt.queryGallery (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:16676)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:5955
+2026-03-07 10:17:25.042 [error] An unexpected error occurred: {"type":"badRequest","reason":"Request Failed: 400 Bad request: failed to decode request: bad request: i/o timeout\n","requestId":"022cde8e-3919-4208-944c-aefa6449db4b","serverRequestId":"9EBC:2FACDB:C76CE:166D87:69ABADDA"}: Error: An unexpected error occurred: {"type":"badRequest","reason":"Request Failed: 400 Bad request: failed to decode request: bad request: i/o timeout\n","requestId":"022cde8e-3919-4208-944c-aefa6449db4b","serverRequestId":"9EBC:2FACDB:C76CE:166D87:69ABADDA"}
+	at Object.n [as fromUnknown] (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:2030:8591)
+	at eur (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4944:9360)
+	at Ph.streamEdits (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4942:16062)
+	at async Ph.streamEditsWithFiltering (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4942:14596)
+	at async Ph.doGetNextEditWithSelection (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4942:11778)
+	at async Ph.provideNextEdit (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4942:7899)
+	at async _3._executeNewNextEditRequest (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4984:28520)
+	at async _3.fetchNextEdit (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4984:24247)
+	at async _3._getNextEditCanThrow (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4984:18222)
+	at async _3.getNextEdit (/home/assassin/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:4984:16590)
+2026-03-07 10:17:25.061 [error] An unknown error occurred. Please consult the log for more details.

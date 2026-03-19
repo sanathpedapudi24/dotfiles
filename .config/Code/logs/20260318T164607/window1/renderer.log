@@ -1,0 +1,38 @@
+2026-03-18 16:46:09.789 [info] Started local extension host with pid 14456.
+2026-03-18 16:46:12.428 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-18 16:46:12.801 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-18 16:46:12.879 [error] [Extension Host] (node:14456) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-18 16:46:12.901 [error] [Extension Host] (node:14456) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-18 16:46:14.459 [info] [perf] Render performance baseline is 33ms
+2026-03-18 16:46:16.404 [warning] [LM] No provider registered for vendor anthropic
+2026-03-18 16:46:16.405 [warning] [LM] No provider registered for vendor xai
+2026-03-18 16:46:16.406 [warning] [LM] No provider registered for vendor gemini
+2026-03-18 16:46:16.407 [warning] [LM] No provider registered for vendor openrouter
+2026-03-18 16:46:16.407 [warning] [LM] No provider registered for vendor openai
+2026-03-18 16:46:16.408 [warning] [LM] No provider registered for vendor ollama
+2026-03-18 16:46:16.409 [warning] [LM] No provider registered for vendor customoai
+2026-03-18 16:46:16.409 [warning] [LM] No provider registered for vendor azure
+2026-03-18 16:46:16.429 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-18 16:51:14.307 [error] Cancelled: Canceled: Canceled
+    at cYe.getLatestRawGalleryExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:51794)
+    at async cYe.getLatestRawGalleryExtensionWithFallback (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:50362)
+    at async cYe.getLatestGalleryExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38879)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38136
+    at async Promise.all (index 2)
+    at async cYe.getExtensionsUsingResourceApi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:38090)
+    at async cYe.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1746:36552)
+    at async T8.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3388:21087)
+    at async mKt.getInstallableRecommendations (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:20954)
+    at async mKt.getAllRecommendationsModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:24595)
+    at async mKt.queryGallery (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:16676)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3384:5955
+2026-03-18 16:58:37.042 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-03-18 16:58:38.463 [info] Started local extension host with pid 73638.
+2026-03-18 16:58:40.062 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-18 16:58:40.278 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-18 16:58:41.143 [info] [perf] Render performance baseline is 52ms
+2026-03-18 16:58:41.305 [error] [Extension Host] (node:73638) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-18 16:58:41.306 [error] [Extension Host] (node:73638) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-18 16:59:09.013 [error] An unknown error occurred. Please consult the log for more details.

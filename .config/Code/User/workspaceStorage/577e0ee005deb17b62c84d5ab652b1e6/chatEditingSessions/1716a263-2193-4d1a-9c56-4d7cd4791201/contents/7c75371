@@ -1,0 +1,238 @@
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { List, Phone, X } from '@phosphor-icons/react';
+import { AnimatePresence, motion } from 'framer-motion';
+import WhatsAppFloat from './WhatsAppFloat';
+import PrivacyPolicyModal from './PrivacyPolicyModal';
+import TermsOfServiceModal from './TermsOfServiceModal';
+import ThemeToggle from './ThemeToggle';
+import logo from '../assets/logo.png';
+
+const Layout = ({ children }) => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [privacyModalOpen, setPrivacyModalOpen] = useState(false);
+  const [termsModalOpen, setTermsModalOpen] = useState(false);
+  const location = useLocation();
+
+  const navLinks = [
+    { name: 'Home', path: '/#hero', hash: '#hero' },
+    { name: 'Services', path: '/#services', hash: '#services' },
+    { name: 'Pricing', path: '/#pricing', hash: '#pricing' },
+    { name: 'About', path: '/#about', hash: '#about' },
+    { name: 'Contact', path: '/#contact', hash: '#contact' },
+  ];
+
+  const isActive = (hash) => {
+    if (location.pathname !== '/') {
+      return false;
+    }
+
+    if (!location.hash && hash === '#hero') {
+      return true;
+    }
+
+    return location.hash === hash;
+  };
+
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
+  }, [location.pathname, location.hash]);
+
+  const handleNavClick = (hash) => {
+    if (location.pathname === '/' && location.hash === hash) {
+      const id = hash.replace('#', '');
+      const target = document.getElementById(id);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    if (mobileMenuOpen) {
+      setMobileMenuOpen(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-background">
+      <header className="fixed top-0 left-0 right-0 z-50 px-4 md:px-8 pt-4">
+        <nav className="max-w-6xl mx-auto glass-nav-capsule px-6 md:px-8">
+          <div className="flex items-center justify-between h-14">
+            <Link to="/#hero" onClick={() => handleNavClick('#hero')} className="flex items-center hover:opacity-80 transition-opacity">
+              <img
+                src={logo}
+                alt="VARDIO Logo"
+                className="h-10 w-auto object-contain"
+              />
+            </Link>
+
+            <div className="hidden md:flex items-center gap-8">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  onClick={() => handleNavClick(link.hash)}
+                  className={`text-sm font-medium transition-colors relative group ${
+                    isActive(link.hash) ? 'text-emerald-400' : 'text-zinc-400 hover:text-white'
+                  }`}
+                >
+                  {link.name}
+                  {isActive(link.hash) && (
+                    <motion.div
+                      layoutId="activeNav"
+                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-emerald-500"
+                      initial={false}
+                    />
+                  )}
+                </Link>
+              ))}
+              <ThemeToggle />
+              <a
+                href="tel:+918886333571"
+                className="flex items-center gap-2 bg-emerald-500 text-black font-semibold hover:bg-emerald-400 rounded-full px-6 py-2.5 transition-all duration-300 shadow-[0_0_20px_rgba(16,185,129,0.3)] hover:shadow-[0_0_30px_rgba(16,185,129,0.5)] active:scale-95"
+              >
+                <Phone size={16} />
+                Book a Call
+              </a>
+            </div>
+
+            <button
+              onClick={() => setMobileMenuOpen((prev) => !prev)}
+              className="md:hidden text-foreground p-2 hover:bg-foreground/5 rounded-lg transition-colors"
+              data-testid="mobile-menu-toggle"
+            >
+              {mobileMenuOpen ? <X size={24} /> : <List size={24} /> }
+            </button>
+          </div>
+        </nav>
+
+        <AnimatePresence>
+          {mobileMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+              className="md:hidden rounded-2xl mt-2 mx-2 overflow-hidden"
+              style={{ background: 'hsl(var(--card) / 0.97)', border: '1px solid hsl(var(--border) / 0.5)', backdropFilter: 'blur(20px)' }}
+            >
+              <div className="px-6 py-5 space-y-1">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.path}
+                    to={link.path}
+                    onClick={() => handleNavClick(link.hash)}
+                    className={`flex items-center py-3 px-3 rounded-xl text-base font-medium transition-colors ${
+                      isActive(link.hash)
+                        ? 'text-emerald-400 bg-emerald-500/10'
+                        : 'text-zinc-300 hover:text-white hover:bg-white/5'
+                    }`}
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+                <div className="pt-3">
+                  <a
+                    href="tel:+918886333571"
+                    className="flex items-center justify-center gap-2 bg-emerald-500 text-black font-semibold hover:bg-emerald-400 rounded-full px-6 py-3 transition-all duration-300 w-full"
+                  >
+                    <Phone size={16} />
+                    Book a Call
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </header>
+
+      <main className="pt-24">{children}</main>
+
+      <footer className="glass-section border-t border-border mt-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 py-16">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div className="col-span-1 md:col-span-2">
+              <div className="flex items-center gap-3 mb-4">
+                <img
+                  src={logo}
+                  alt="VARDIO Logo"
+                  className="h-10 w-auto object-contain"
+                />
+              </div>
+              <p className="text-zinc-400 leading-relaxed mb-4 max-w-lg">
+                You run your business. We run everything else — content, automation, website, ads, and customer communication.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <a href="mailto:vardioindia@gmail.com" className="text-emerald-500 hover:text-emerald-400 text-sm transition-colors">
+                  vardioindia@gmail.com
+                </a>
+                <a href="tel:+918886333571" className="text-emerald-500 hover:text-emerald-400 text-sm transition-colors">
+                  +91 88863 33571
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-foreground font-semibold mb-4">Quick Links</h3>
+              <ul className="space-y-2">
+                {navLinks.map((link) => (
+                  <li key={link.path}>
+                    <Link
+                      to={link.path}
+                      onClick={() => handleNavClick(link.hash)}
+                      className="text-zinc-400 hover:text-emerald-400 transition-colors text-sm"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-foreground font-semibold mb-4">Focus Areas</h3>
+              <ul className="space-y-2 text-sm text-zinc-400">
+                <li>Website Systems</li>
+                <li>AI Automations</li>
+                <li>Social + Content Ops</li>
+                <li>Paid Growth</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-center mb-8">
+            <h2 className="text-[15vw] font-bold text-transparent bg-clip-text bg-gradient-to-b from-muted to-background leading-none font-['Outfit'] select-none">
+              VARDIO
+            </h2>
+          </div>
+
+          <div className="glass-divider" />
+          <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-zinc-600 text-sm">© {new Date().getFullYear()} VARDIO. All rights reserved.</p>
+            <div className="flex gap-6 text-sm text-zinc-600">
+              <button
+                onClick={() => setPrivacyModalOpen(true)}
+                className="hover:text-emerald-400 transition-colors cursor-pointer"
+              >
+                Privacy Policy
+              </button>
+              <button
+                onClick={() => setTermsModalOpen(true)}
+                className="hover:text-emerald-400 transition-colors cursor-pointer"
+              >
+                Terms of Service
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <WhatsAppFloat />
+      <PrivacyPolicyModal isOpen={privacyModalOpen} onClose={() => setPrivacyModalOpen(false)} />
+      <TermsOfServiceModal isOpen={termsModalOpen} onClose={() => setTermsModalOpen(false)} />
+    </div>
+  );
+};
+
+export default Layout;

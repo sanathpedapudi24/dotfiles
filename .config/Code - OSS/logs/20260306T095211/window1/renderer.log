@@ -1,0 +1,8 @@
+2026-03-06 09:52:13.476 [info] Started local extension host with pid 45784.
+2026-03-06 09:52:16.636 [info] [perf] Render performance baseline is 236ms
+2026-03-06 09:54:20.614 [error] [chat setup] install: error undefined
+2026-03-06 09:54:22.996 [error] [chat setup] install: error undefined
+2026-03-06 09:54:30.544 [error] [chat setup] install: error undefined
+2026-03-06 09:54:31.462 [error] [chat setup] install: error NotFound: The extension 'GitHub.copilot-chat' cannot be installed because it was not found.
+2026-03-06 09:55:08.266 [warning] [backup tracker] suspended, ignoring unregister event file:///home/assassin/vardio/package.json 
+2026-03-06 09:55:08.267 [warning] [backup tracker] suspended, ignoring unregister event file:///home/assassin/vardio/frontend/package.json 

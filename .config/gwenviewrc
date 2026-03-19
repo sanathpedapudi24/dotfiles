@@ -1,0 +1,29 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Arch/i3setup/ss/ss1.png
+File2[$e]=$HOME/Arch/i3setup/ss/ss2.png
+File3[$e]=$HOME/Arch/i3setup/ss/ss3.png
+File4[$e]=$HOME/Arch/i3setup/ss/ss4.png
+File5[$e]=$HOME/Arch/i3setup/ss/ss6.png
+File6[$e]=$HOME/Arch/i3setup/ss/ss7.png
+File7[$e]=$HOME/Arch/i3setup/ss/ss8.png
+File8[$e]=$HOME/Arch/i3setup/ss/ss5.png
+Name1[$e]=ss1.png
+Name2[$e]=ss2.png
+Name3[$e]=ss3.png
+Name4[$e]=ss4.png
+Name5[$e]=ss6.png
+Name6[$e]=ss7.png
+Name7[$e]=ss8.png
+Name8[$e]=ss5.png
+
+[SideBar]
+InformationSplitterSizes=209,246
+IsVisible ViewMode=true
+SideBarSplitterSizes=289,990

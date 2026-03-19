@@ -1,0 +1,27 @@
+2026-03-07 09:42:56.749 [info] [getSessions] [all] starting
+2026-03-07 09:42:56.749 [info] [getSessions] [all] returned 0 session(s)
+2026-03-07 09:42:56.749 [info] [getSessions] [all] starting
+2026-03-07 09:42:56.749 [info] [getSessions] [all] returned 0 session(s)
+2026-03-07 09:42:56.750 [info] [getSessions] [all] starting
+2026-03-07 09:42:56.750 [info] [getSessions] [all] returned 0 session(s)
+2026-03-07 09:42:56.754 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-03-07 09:42:56.754 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-03-07 09:42:59.318 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-03-07 09:59:36.403 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-03-07 09:59:36.403 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-03-07 09:59:37.031 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-03-07 09:59:37.031 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-03-07 09:59:40.557 [info] Microsoft Authentication is deactivating...
+2026-03-07 09:59:46.830 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-03-07 09:59:46.896 [info] [getSessions] [all] starting
+2026-03-07 09:59:46.896 [info] [getSessions] [all] returned 0 session(s)
+2026-03-07 09:59:46.897 [info] [getSessions] [all] starting
+2026-03-07 09:59:46.897 [info] [getSessions] [all] returned 0 session(s)
+2026-03-07 09:59:46.897 [info] [getSessions] [all] starting
+2026-03-07 09:59:46.897 [info] [getSessions] [all] returned 0 session(s)
+2026-03-07 09:59:46.910 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-03-07 09:59:46.910 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-03-07 09:59:47.002 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-03-07 09:59:47.892 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-03-07 09:59:47.892 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-03-07 10:12:27.860 [info] Microsoft Authentication is deactivating...

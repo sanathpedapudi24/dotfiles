@@ -1,0 +1,78 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "783e1360673de9829228618eab83ddfbb0aca104554261eb28ff002d2c13f7a9",
+    "telemetry.devDeviceId": "453f8a5c-398b-4a6a-a766-3fd10bd0fc91",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/assassin/vardio"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/assassin/vardio": "__default__profile__",
+            "file:///home/assassin/Downloads/VSCode": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#002b36",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#002b36",
+            "editorBackground": "#002b36",
+            "titleBarBackground": "#002c39",
+            "activityBarBackground": "#003847",
+            "sideBarBackground": "#00212b",
+            "statusBarBackground": "#00212b",
+            "statusBarNoFolderBackground": "#00212b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/assassin/vardio",
+            "backupPath": "/home/assassin/.config/Code/Backups/f94f633f127195c2ae6b53cd7a648632",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 640,
+                "height": 680
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "e27b5ed57de572db6d74cd8b1796c929": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "577e0ee005deb17b62c84d5ab652b1e6": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

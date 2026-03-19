@@ -1,0 +1,7 @@
+2026-03-18 16:46:08.105 [info] update#setState idle
+2026-03-18 16:46:38.080 [info] update#setState checking for updates
+2026-03-18 16:46:38.231 [info] update#setState available for download
+2026-03-18 16:58:37.055 [info] Extension host with pid 14456 exited with code: 0, signal: unknown.
+2026-03-18 16:58:44.599 [info] update#setState idle
+2026-03-18 17:29:27.735 [warning] No ptyHost heartbeat after 6 seconds
+2026-03-18 17:29:48.800 [info] Extension host with pid 73638 exited with code: 0, signal: unknown.

@@ -1,0 +1,306 @@
+2026-03-18 19:27:24.146 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-18 19:27:24.197 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-18 19:27:24.197 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-18 19:27:24.197 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-18 19:27:24.523 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-03-18 19:27:25.281 [info] Using the Electron fetcher.
+2026-03-18 19:27:27.165 [info] [CopilotCLI] MCP server started. Lock file: /home/assassin/.copilot/ide/89d69632-e2b6-4ca6-ac6c-632e66d935ff.lock
+2026-03-18 19:27:27.165 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-lgqKad/mcp.sock#%2Fmcp
+2026-03-18 19:27:27.301 [info] Logged in as sanathpedapudi24
+2026-03-18 19:27:27.983 [info] Got Copilot token for sanathpedapudi24
+2026-03-18 19:27:27.983 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-18 19:27:28.007 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-18 19:27:28.011 [info] activationBlocker from 'languageModelAccess' took for 3586ms
+2026-03-18 19:27:28.749 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-18 19:27:28.749 [info] copilot token sku: free_limited_copilot
+2026-03-18 19:27:28.749 [info] ConversationFeature: Activating contributions
+2026-03-18 19:27:28.749 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-18 19:27:28.781 [info] Registering default platform agent...
+2026-03-18 19:27:28.784 [info] [ChatDebugLogProvider] Registering chat debug log provider
+2026-03-18 19:27:28.784 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-18 19:27:28.785 [info] [code-referencing] Public code references are enabled.
+2026-03-18 19:27:28.789 [info] activationBlocker from 'conversationFeature' took for 4376ms
+2026-03-18 19:27:28.813 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-18 19:27:28.822 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-18 19:27:28.956 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-18 19:27:29.137 [info] Fetched model metadata in 4662ms fb3e325d-98eb-4230-95f5-e97fe2cd04e5
+2026-03-18 19:27:29.307 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-18 19:27:29.309 [info] ccreq:092eef5f.copilotmd | markdown
+2026-03-18 19:31:05.445 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:31:05.454 [info] request done: requestId: [f2d98f5f-9c58-477f-8eb5-2219cf1e0a60] model deployment ID: []
+2026-03-18 19:31:05.458 [info] ccreq:809ee541.copilotmd | success | gpt-4o-mini-2024-07-18 | 1009ms | [title]
+2026-03-18 19:31:06.068 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:31:06.074 [info] request done: requestId: [0fb99859-f501-4bd9-9a4b-e478135aa001] model deployment ID: []
+2026-03-18 19:31:06.076 [info] ccreq:f0986163.copilotmd | success | gpt-4o-mini-2024-07-18 | 1613ms | [progressMessages]
+2026-03-18 19:31:06.081 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:31:06.086 [info] request done: requestId: [e4e56050-9270-457d-8d04-b1040f407d28] model deployment ID: []
+2026-03-18 19:31:06.090 [info] ccreq:35e0976c.copilotmd | success | gpt-4o-mini-2024-07-18 | 1617ms | [progressMessages]
+2026-03-18 19:31:10.206 [info] ccreq:048ac605.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4440ms | [panel/editAgent]
+2026-03-18 19:31:15.249 [info] ccreq:50139e61.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4631ms | [panel/editAgent]
+2026-03-18 19:31:19.869 [info] ccreq:8e7d2039.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4191ms | [panel/editAgent]
+2026-03-18 19:31:26.772 [info] ccreq:ff6b8128.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 6582ms | [panel/editAgent]
+2026-03-18 19:31:30.596 [info] ccreq:2611ddfd.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 3324ms | [panel/editAgent]
+2026-03-18 19:31:36.299 [info] ccreq:f0835db1.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 5535ms | [panel/editAgent]
+2026-03-18 19:31:40.634 [info] ccreq:a710001b.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4097ms | [panel/editAgent]
+2026-03-18 19:31:45.514 [info] ccreq:f2935a13.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4133ms | [panel/editAgent]
+2026-03-18 19:31:52.421 [info] ccreq:6f85608b.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 6670ms | [panel/editAgent]
+2026-03-18 19:31:57.415 [info] ccreq:2e3c56cb.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4598ms | [panel/editAgent]
+2026-03-18 19:32:03.175 [info] ccreq:57082f96.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 5572ms | [panel/editAgent]
+2026-03-18 19:32:10.500 [info] ccreq:b18facfb.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 7106ms | [panel/editAgent]
+2026-03-18 19:32:18.270 [info] ccreq:22390301.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 7531ms | [panel/editAgent]
+2026-03-18 19:32:25.453 [info] ccreq:b34a6142.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 6863ms | [panel/editAgent]
+2026-03-18 19:32:34.387 [info] ccreq:2fcffa03.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 8683ms | [panel/editAgent]
+2026-03-18 19:32:38.155 [info] ccreq:7a6ec6b0.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 3536ms | [panel/editAgent]
+2026-03-18 19:32:52.749 [info] ccreq:cafefeb0.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 14427ms | [panel/editAgent]
+2026-03-18 19:33:01.164 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:33:01.170 [info] request done: requestId: [87e0c7d8-761e-4d5b-9a33-27ffbf4ff4c0] model deployment ID: []
+2026-03-18 19:33:01.175 [info] ccreq:f0fa952c.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1873ms | [copilotLanguageModelWrapper]
+2026-03-18 19:33:03.813 [info] ccreq:0ab88ab9.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4742ms | [panel/editAgent]
+2026-03-18 19:33:09.460 [info] ccreq:a79328b0.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 5331ms | [panel/editAgent]
+2026-03-18 19:33:09.735 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:33:09.742 [info] request done: requestId: [7cdf1b1a-7859-42eb-b22e-afd969c49f64] model deployment ID: []
+2026-03-18 19:33:09.743 [info] ccreq:c04d8beb.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1117ms | [copilotLanguageModelWrapper]
+2026-03-18 19:33:12.543 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 19:42:55.866 [info] Fetched model metadata in 1053ms 6ffcf012-f3bf-4ff5-82aa-f34b88feaae4
+2026-03-18 19:42:56.274 [info] ccreq:af76d8e9.copilotmd | markdown
+2026-03-18 19:43:05.551 [info] ccreq:4b38e5da.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 7101ms | [panel/editAgent]
+2026-03-18 19:43:09.447 [info] ccreq:892dd2b1.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 3633ms | [panel/editAgent]
+2026-03-18 19:43:14.505 [info] ccreq:4a585b43.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4840ms | [panel/editAgent]
+2026-03-18 19:43:19.776 [info] ccreq:e53b939d.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4973ms | [panel/editAgent]
+2026-03-18 19:43:23.998 [info] ccreq:b6b82e20.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 3840ms | [panel/editAgent]
+2026-03-18 19:43:30.892 [info] ccreq:10e8c9c5.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 6684ms | [panel/editAgent]
+2026-03-18 19:43:35.171 [info] ccreq:28f3f49d.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 3999ms | [panel/editAgent]
+2026-03-18 19:43:42.407 [info] ccreq:0fd75c88.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 7038ms | [panel/editAgent]
+2026-03-18 19:43:47.594 [info] ccreq:568fb72d.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4928ms | [panel/editAgent]
+2026-03-18 19:43:57.348 [info] ccreq:99054ac4.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 9525ms | [panel/editAgent]
+2026-03-18 19:44:02.432 [info] ccreq:b57f3d33.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4803ms | [panel/editAgent]
+2026-03-18 19:44:11.433 [info] ccreq:63766f0b.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 8575ms | [panel/editAgent]
+2026-03-18 19:44:15.669 [info] ccreq:704db8c8.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 3950ms | [panel/editAgent]
+2026-03-18 19:44:30.827 [info] ccreq:4fc02a1d.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 14884ms | [panel/editAgent]
+2026-03-18 19:44:48.121 [info] ccreq:9c129c2f.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 16961ms | [panel/editAgent]
+2026-03-18 19:44:53.660 [info] ccreq:bc68046f.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 5185ms | [panel/editAgent]
+2026-03-18 19:44:57.931 [info] ccreq:34c8562d.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 3876ms | [panel/editAgent]
+2026-03-18 19:45:14.136 [info] ccreq:b780c983.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 15855ms | [panel/editAgent]
+2026-03-18 19:45:17.173 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:45:17.190 [info] request done: requestId: [130d4648-331c-42b0-ad7d-097c50b0ce23] model deployment ID: []
+2026-03-18 19:45:17.205 [info] ccreq:f4ca7403.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1782ms | [copilotLanguageModelWrapper]
+2026-03-18 19:45:19.402 [info] ccreq:419f72cd.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 4034ms | [panel/editAgent]
+2026-03-18 19:45:29.269 [info] ccreq:bbf61cf4.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 9598ms | [panel/editAgent]
+2026-03-18 19:45:39.790 [info] ccreq:e49a7909.copilotmd | success | oswe-vscode-prime -> capi-eus2-ptuc-h100-oswe-vscode-prime | 8776ms | [panel/editAgent]
+2026-03-18 19:45:40.059 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:45:40.062 [info] request done: requestId: [dc3b5780-593c-4a12-aa4a-c2f0868ef079] model deployment ID: []
+2026-03-18 19:45:40.063 [info] ccreq:36a54302.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1064ms | [copilotLanguageModelWrapper]
+2026-03-18 19:45:45.717 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 19:49:26.161 [info] Logged in as sanathpedapudi24
+2026-03-18 19:49:27.240 [info] Got Copilot token for sanathpedapudi24
+2026-03-18 19:49:27.240 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-18 19:49:27.272 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-18 19:49:27.272 [info] copilot token sku: free_limited_copilot
+2026-03-18 19:49:27.272 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-18 19:49:27.272 [info] [code-referencing] Public code references are enabled.
+2026-03-18 19:49:28.463 [info] Fetched model metadata in 1195ms 7a5e96b9-6c5b-48ad-ad40-d47150b87bfa
+2026-03-18 19:49:28.874 [info] ccreq:1f7c5f0f.copilotmd | markdown
+2026-03-18 19:51:19.055 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:51:19.063 [info] request done: requestId: [e00fa697-e97f-46bd-99d8-555a0cc71424] model deployment ID: []
+2026-03-18 19:51:19.068 [info] ccreq:790886ea.copilotmd | success | grok-code-fast-1 | 11334ms | [panel/editAgent]
+2026-03-18 19:51:21.754 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:51:21.757 [info] request done: requestId: [073aa5bb-061c-40ec-966c-2a545bcc61a1] model deployment ID: []
+2026-03-18 19:51:21.762 [info] ccreq:4b5f8ed4.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1824ms | [copilotLanguageModelWrapper]
+2026-03-18 19:51:25.237 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:51:25.241 [info] request done: requestId: [e00fa697-e97f-46bd-99d8-555a0cc71424] model deployment ID: []
+2026-03-18 19:51:25.244 [info] ccreq:2826368a.copilotmd | success | grok-code-fast-1 | 5338ms | [panel/editAgent]
+2026-03-18 19:51:29.349 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:51:29.353 [info] request done: requestId: [e00fa697-e97f-46bd-99d8-555a0cc71424] model deployment ID: []
+2026-03-18 19:51:29.357 [info] ccreq:b543ae5e.copilotmd | success | grok-code-fast-1 | 3209ms | [panel/editAgent]
+2026-03-18 19:51:33.957 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:51:33.962 [info] request done: requestId: [8f1b0fc6-605d-4b9a-8d1e-97492621c387] model deployment ID: []
+2026-03-18 19:51:33.964 [info] ccreq:b271522b.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 765ms | [copilotLanguageModelWrapper]
+2026-03-18 19:51:35.842 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:51:35.845 [info] request done: requestId: [e00fa697-e97f-46bd-99d8-555a0cc71424] model deployment ID: []
+2026-03-18 19:51:35.847 [info] ccreq:eee22366.copilotmd | success | grok-code-fast-1 | 5343ms | [panel/editAgent]
+2026-03-18 19:51:46.432 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 19:52:33.344 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:52:33.349 [info] request done: requestId: [e393aec6-d161-4dbc-abdf-db6b4ed14615] model deployment ID: []
+2026-03-18 19:52:33.351 [info] ccreq:6ae25b88.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 690ms | [copilotLanguageModelWrapper]
+2026-03-18 19:52:39.436 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:52:39.440 [info] request done: requestId: [ea30d7fd-06d8-40a0-9b2f-38ab9305cbe6] model deployment ID: []
+2026-03-18 19:52:39.444 [info] ccreq:e46186b2.copilotmd | success | grok-code-fast-1 | 5768ms | [panel/editAgent]
+2026-03-18 19:52:41.962 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:52:41.978 [info] request done: requestId: [45f8b445-c68b-4a04-8b62-1038aa18544b] model deployment ID: []
+2026-03-18 19:52:41.981 [info] ccreq:1bd37b8b.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1835ms | [copilotLanguageModelWrapper]
+2026-03-18 19:52:44.451 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:52:44.454 [info] request done: requestId: [ea30d7fd-06d8-40a0-9b2f-38ab9305cbe6] model deployment ID: []
+2026-03-18 19:52:44.456 [info] ccreq:e2e5cb5b.copilotmd | success | grok-code-fast-1 | 4338ms | [panel/editAgent]
+2026-03-18 19:52:48.801 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:52:48.806 [info] request done: requestId: [ea30d7fd-06d8-40a0-9b2f-38ab9305cbe6] model deployment ID: []
+2026-03-18 19:52:48.809 [info] ccreq:5b7eb82d.copilotmd | success | grok-code-fast-1 | 3701ms | [panel/editAgent]
+2026-03-18 19:52:52.843 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:52:52.845 [info] request done: requestId: [bda7bac0-d0aa-4af6-a775-5df1224fa7f3] model deployment ID: []
+2026-03-18 19:52:52.847 [info] ccreq:7bb07a85.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 726ms | [copilotLanguageModelWrapper]
+2026-03-18 19:52:54.364 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:52:54.368 [info] request done: requestId: [ea30d7fd-06d8-40a0-9b2f-38ab9305cbe6] model deployment ID: []
+2026-03-18 19:52:54.370 [info] ccreq:18fa8113.copilotmd | success | grok-code-fast-1 | 4637ms | [panel/editAgent]
+2026-03-18 19:53:03.953 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 19:54:37.425 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:54:37.431 [info] request done: requestId: [55e05963-0d93-487e-b512-e7ba41d95d3c] model deployment ID: []
+2026-03-18 19:54:37.434 [info] ccreq:243ed4c0.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 742ms | [copilotLanguageModelWrapper]
+2026-03-18 19:54:40.324 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:54:40.328 [info] request done: requestId: [083468c0-0488-4a50-8dae-4e71778f4cf8] model deployment ID: []
+2026-03-18 19:54:40.331 [info] ccreq:ab6bb3be.copilotmd | success | grok-code-fast-1 | 2761ms | [panel/editAgent]
+2026-03-18 19:54:46.308 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:54:46.312 [info] request done: requestId: [083468c0-0488-4a50-8dae-4e71778f4cf8] model deployment ID: []
+2026-03-18 19:54:46.315 [info] ccreq:1a501f1f.copilotmd | success | grok-code-fast-1 | 5658ms | [panel/editAgent]
+2026-03-18 19:54:50.631 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:54:50.641 [info] request done: requestId: [90617ad8-d8f9-49d1-bd86-f89586ae1d08] model deployment ID: []
+2026-03-18 19:54:50.645 [info] ccreq:3d526978.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 3651ms | [copilotLanguageModelWrapper]
+2026-03-18 19:54:51.589 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:54:51.592 [info] request done: requestId: [083468c0-0488-4a50-8dae-4e71778f4cf8] model deployment ID: []
+2026-03-18 19:54:51.594 [info] ccreq:32dadeab.copilotmd | success | grok-code-fast-1 | 4663ms | [panel/editAgent]
+2026-03-18 19:55:00.744 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 19:55:36.539 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 19:55:36.541 [info] request done: requestId: [8be89567-b648-47f8-9338-140d25a96d71] model deployment ID: []
+2026-03-18 19:55:36.543 [info] ccreq:ebbcd48c.copilotmd | success | grok-code-fast-1 | 3550ms | [panel/editAgent]
+2026-03-18 19:55:39.370 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:55:39.373 [info] request done: requestId: [b57164b4-77ce-4e44-9f6b-3df8a1ce6c60] model deployment ID: []
+2026-03-18 19:55:39.374 [info] ccreq:a95c4606.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 2075ms | [copilotLanguageModelWrapper]
+2026-03-18 19:55:41.062 [info] message 0 returned. finish reason: [stop]
+2026-03-18 19:55:41.068 [info] request done: requestId: [8be89567-b648-47f8-9338-140d25a96d71] model deployment ID: []
+2026-03-18 19:55:41.071 [info] ccreq:265c1a3f.copilotmd | success | grok-code-fast-1 | 3789ms | [panel/editAgent]
+2026-03-18 19:55:45.494 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 19:59:57.816 [info] Fetched model metadata in 1101ms ae32eeb1-a1cb-4945-b794-59a2a4bfb039
+2026-03-18 19:59:58.219 [info] ccreq:2c1c3189.copilotmd | markdown
+2026-03-18 20:00:02.641 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 20:00:02.646 [info] request done: requestId: [c7ba96dc-8479-4c10-a091-47c3ae966803] model deployment ID: []
+2026-03-18 20:00:02.649 [info] ccreq:ca1f6258.copilotmd | success | grok-code-fast-1 | 3524ms | [panel/editAgent]
+2026-03-18 20:00:05.187 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 20:00:05.191 [info] request done: requestId: [c7ba96dc-8479-4c10-a091-47c3ae966803] model deployment ID: []
+2026-03-18 20:00:05.194 [info] ccreq:e830bb85.copilotmd | success | grok-code-fast-1 | 1962ms | [panel/editAgent]
+2026-03-18 20:00:10.502 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 20:00:10.504 [info] request done: requestId: [c7ba96dc-8479-4c10-a091-47c3ae966803] model deployment ID: []
+2026-03-18 20:00:10.506 [info] ccreq:3ca3fb21.copilotmd | success | grok-code-fast-1 | 4936ms | [panel/editAgent]
+2026-03-18 20:00:13.655 [info] message 0 returned. finish reason: [stop]
+2026-03-18 20:00:13.659 [info] request done: requestId: [77b03876-3c81-4be4-a297-fe25416493ba] model deployment ID: []
+2026-03-18 20:00:13.663 [info] ccreq:1b4eebde.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 2409ms | [copilotLanguageModelWrapper]
+2026-03-18 20:00:16.686 [info] message 0 returned. finish reason: [stop]
+2026-03-18 20:00:16.690 [info] request done: requestId: [c7ba96dc-8479-4c10-a091-47c3ae966803] model deployment ID: []
+2026-03-18 20:00:16.694 [info] ccreq:077b3804.copilotmd | success | grok-code-fast-1 | 5511ms | [panel/editAgent]
+2026-03-18 20:00:21.168 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 21:07:46.834 [info] Logged in as sanathpedapudi24
+2026-03-18 21:07:47.662 [info] Got Copilot token for sanathpedapudi24
+2026-03-18 21:07:47.662 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-18 21:07:47.683 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-18 21:07:47.683 [info] copilot token sku: free_limited_copilot
+2026-03-18 21:07:47.683 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-18 21:07:47.683 [info] [code-referencing] Public code references are enabled.
+2026-03-18 21:07:48.812 [info] Fetched model metadata in 2080ms d6b328ab-bfe8-4066-b0a2-0959bb447732
+2026-03-18 21:07:49.221 [info] ccreq:bece8613.copilotmd | markdown
+2026-03-18 21:08:00.692 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:08:00.706 [info] ccreq:82d0d178.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 10752ms | [panel/editAgent]
+2026-03-18 21:08:03.722 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:08:03.735 [info] ccreq:08d6594f.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2826ms | [panel/editAgent]
+2026-03-18 21:08:09.918 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:08:09.927 [info] ccreq:ea57fd80.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5997ms | [panel/editAgent]
+2026-03-18 21:08:13.403 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:08:13.406 [info] request done: requestId: [ce762403-6693-4781-8e16-3ff1b65ee07d] model deployment ID: []
+2026-03-18 21:08:13.407 [info] ccreq:72249347.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 2308ms | [copilotLanguageModelWrapper]
+2026-03-18 21:08:20.590 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:08:20.594 [info] request done: requestId: [93a9461f-0f46-4356-8e41-272f628b2501] model deployment ID: []
+2026-03-18 21:08:20.595 [info] ccreq:241d6428.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 707ms | [copilotLanguageModelWrapper]
+2026-03-18 21:08:22.866 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:08:22.874 [info] ccreq:f12b2442.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 11792ms | [panel/editAgent]
+2026-03-18 21:08:26.224 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 21:08:43.082 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:08:43.087 [info] request done: requestId: [7353a470-720b-4d9e-b78b-5778e54f7989] model deployment ID: []
+2026-03-18 21:08:43.090 [info] ccreq:b9360965.copilotmd | success | grok-code-fast-1 | 5123ms | [panel/editAgent]
+2026-03-18 21:08:45.134 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:08:45.138 [info] request done: requestId: [e9396e1c-9b8f-4af4-8d7b-1b759ad129b7] model deployment ID: []
+2026-03-18 21:08:45.140 [info] ccreq:fa374760.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1843ms | [copilotLanguageModelWrapper]
+2026-03-18 21:08:47.261 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:08:47.265 [info] request done: requestId: [7353a470-720b-4d9e-b78b-5778e54f7989] model deployment ID: []
+2026-03-18 21:08:47.268 [info] ccreq:eee1f580.copilotmd | success | grok-code-fast-1 | 3981ms | [panel/editAgent]
+2026-03-18 21:08:47.283 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 21:09:33.961 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:09:33.967 [info] request done: requestId: [0187069c-72ef-487c-8fa7-cc660ee397b1] model deployment ID: []
+2026-03-18 21:09:33.969 [info] ccreq:35790344.copilotmd | success | grok-code-fast-1 | 3442ms | [panel/editAgent]
+2026-03-18 21:09:37.903 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:09:37.906 [info] request done: requestId: [0187069c-72ef-487c-8fa7-cc660ee397b1] model deployment ID: []
+2026-03-18 21:09:37.908 [info] ccreq:9a0f5f0e.copilotmd | success | grok-code-fast-1 | 3727ms | [panel/editAgent]
+2026-03-18 21:09:39.888 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:09:39.892 [info] request done: requestId: [b60c14b2-b30e-472c-897b-9f083c9d88f7] model deployment ID: []
+2026-03-18 21:09:39.894 [info] ccreq:5825e2f6.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1694ms | [copilotLanguageModelWrapper]
+2026-03-18 21:09:41.163 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:09:41.168 [info] request done: requestId: [0187069c-72ef-487c-8fa7-cc660ee397b1] model deployment ID: []
+2026-03-18 21:09:41.170 [info] ccreq:fdf9dab7.copilotmd | success | grok-code-fast-1 | 2992ms | [panel/editAgent]
+2026-03-18 21:09:42.393 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 21:10:24.073 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:10:24.077 [info] request done: requestId: [4898b49b-9c65-4d52-9f9a-ae3293a9e799] model deployment ID: []
+2026-03-18 21:10:24.080 [info] ccreq:bf24da26.copilotmd | success | grok-code-fast-1 | 3120ms | [panel/editAgent]
+2026-03-18 21:10:26.392 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:10:26.395 [info] request done: requestId: [4898b49b-9c65-4d52-9f9a-ae3293a9e799] model deployment ID: []
+2026-03-18 21:10:26.396 [info] ccreq:324b1a5e.copilotmd | success | grok-code-fast-1 | 2102ms | [panel/editAgent]
+2026-03-18 21:10:31.627 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:10:31.632 [info] request done: requestId: [4898b49b-9c65-4d52-9f9a-ae3293a9e799] model deployment ID: []
+2026-03-18 21:10:31.634 [info] ccreq:262f9749.copilotmd | success | grok-code-fast-1 | 5019ms | [panel/editAgent]
+2026-03-18 21:10:34.247 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:10:34.250 [info] request done: requestId: [88972edd-d962-45c0-97a6-9c8831ddf187] model deployment ID: []
+2026-03-18 21:10:34.252 [info] ccreq:ea369a3d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 2330ms | [copilotLanguageModelWrapper]
+2026-03-18 21:10:34.797 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:10:34.801 [info] request done: requestId: [4898b49b-9c65-4d52-9f9a-ae3293a9e799] model deployment ID: []
+2026-03-18 21:10:34.803 [info] ccreq:e7a2c0f5.copilotmd | success | grok-code-fast-1 | 2947ms | [panel/editAgent]
+2026-03-18 21:10:38.650 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:10:38.652 [info] request done: requestId: [12161a32-ea6e-44ac-bc0a-0a1a43be1b55] model deployment ID: []
+2026-03-18 21:10:38.653 [info] ccreq:93223d84.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 749ms | [copilotLanguageModelWrapper]
+2026-03-18 21:10:40.230 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:10:40.233 [info] request done: requestId: [4898b49b-9c65-4d52-9f9a-ae3293a9e799] model deployment ID: []
+2026-03-18 21:10:40.235 [info] ccreq:748a71f0.copilotmd | success | grok-code-fast-1 | 5181ms | [panel/editAgent]
+2026-03-18 21:10:43.196 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 21:10:52.990 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:10:52.994 [info] request done: requestId: [5ea33d9a-28c3-41d2-9ba3-5e482c3a6673] model deployment ID: []
+2026-03-18 21:10:52.997 [info] ccreq:55b48410.copilotmd | success | grok-code-fast-1 | 3204ms | [panel/editAgent]
+2026-03-18 21:10:55.953 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:10:55.955 [info] request done: requestId: [5ea33d9a-28c3-41d2-9ba3-5e482c3a6673] model deployment ID: []
+2026-03-18 21:10:55.957 [info] ccreq:46fcf14b.copilotmd | success | grok-code-fast-1 | 2740ms | [panel/editAgent]
+2026-03-18 21:10:58.184 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:10:58.187 [info] request done: requestId: [12c78392-2496-42b8-ad86-3f53ea53a4b1] model deployment ID: []
+2026-03-18 21:10:58.189 [info] ccreq:bfce9c4d.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1791ms | [copilotLanguageModelWrapper]
+2026-03-18 21:10:59.578 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:10:59.580 [info] request done: requestId: [5ea33d9a-28c3-41d2-9ba3-5e482c3a6673] model deployment ID: []
+2026-03-18 21:10:59.582 [info] ccreq:dff8cc8b.copilotmd | success | grok-code-fast-1 | 3204ms | [panel/editAgent]
+2026-03-18 21:11:00.649 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 21:12:52.734 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:12:52.748 [info] ccreq:85b15d80.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7167ms | [panel/editAgent]
+2026-03-18 21:12:59.080 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:12:59.084 [info] ccreq:322ae004.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6069ms | [panel/editAgent]
+2026-03-18 21:13:05.841 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:13:05.856 [info] ccreq:17412653.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6571ms | [panel/editAgent]
+2026-03-18 21:13:08.971 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:13:08.976 [info] request done: requestId: [c75c13d9-525b-45b3-8b42-f6c4ceb528ff] model deployment ID: []
+2026-03-18 21:13:08.978 [info] ccreq:ef9f6132.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 2397ms | [copilotLanguageModelWrapper]
+2026-03-18 21:13:11.472 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:13:11.480 [info] ccreq:f638db94.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4932ms | [panel/editAgent]
+2026-03-18 21:13:18.333 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:13:18.337 [info] request done: requestId: [50233e48-a41e-492c-98a1-526ac738ab55] model deployment ID: []
+2026-03-18 21:13:18.338 [info] ccreq:bc26734f.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1088ms | [copilotLanguageModelWrapper]
+2026-03-18 21:13:19.151 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-03-18 21:13:19.157 [info] ccreq:7bbb27b8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 7340ms | [panel/editAgent]
+2026-03-18 21:13:20.982 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 21:18:29.696 [info] ccreq:ac174113.copilotmd | cancelled | grok-code-fast-1 | 298476ms | [panel/editAgent]
+2026-03-18 21:18:30.855 [info] Fetched model metadata in 637ms 267b7817-f2a2-452e-970e-5490e4bc2096
+2026-03-18 21:18:31.253 [info] ccreq:4bfeb211.copilotmd | markdown
+2026-03-18 21:18:37.161 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:18:37.165 [info] request done: requestId: [d3336f1d-f0d5-4715-9b39-83abef93b3cd] model deployment ID: []
+2026-03-18 21:18:37.167 [info] ccreq:aa3230a5.copilotmd | success | grok-code-fast-1 | 3798ms | [panel/editAgent]
+2026-03-18 21:18:43.451 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:18:43.455 [info] request done: requestId: [d3336f1d-f0d5-4715-9b39-83abef93b3cd] model deployment ID: []
+2026-03-18 21:18:43.457 [info] ccreq:8ffbc80a.copilotmd | success | grok-code-fast-1 | 5897ms | [panel/editAgent]
+2026-03-18 21:18:43.477 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-03-18 21:18:58.095 [info] message 0 returned. finish reason: [tool_calls]
+2026-03-18 21:18:58.099 [info] request done: requestId: [cb073333-7d0f-48f8-821b-ec67e654d0c1] model deployment ID: []
+2026-03-18 21:18:58.102 [info] ccreq:042e11e2.copilotmd | success | grok-code-fast-1 | 4080ms | [panel/editAgent]
+2026-03-18 21:19:00.354 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:19:00.357 [info] request done: requestId: [6c0d2fcc-625a-40cc-aa63-bcb8168dbcbe] model deployment ID: []
+2026-03-18 21:19:00.359 [info] ccreq:3b7e97cb.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1841ms | [copilotLanguageModelWrapper]
+2026-03-18 21:19:01.829 [info] message 0 returned. finish reason: [stop]
+2026-03-18 21:19:01.832 [info] request done: requestId: [cb073333-7d0f-48f8-821b-ec67e654d0c1] model deployment ID: []
+2026-03-18 21:19:01.834 [info] ccreq:c8d21b34.copilotmd | success | grok-code-fast-1 | 3451ms | [panel/editAgent]
+2026-03-18 21:19:02.399 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined

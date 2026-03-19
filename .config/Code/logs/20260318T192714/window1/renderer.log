@@ -1,0 +1,29 @@
+2026-03-18 19:27:17.279 [info] Started local extension host with pid 273280.
+2026-03-18 19:27:22.737 [error] [Extension Host] (node:273280) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-18 19:27:22.742 [error] [Extension Host] (node:273280) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-18 19:27:23.921 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-18 19:27:24.136 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-18 19:27:28.325 [info] [perf] Render performance baseline is 63ms
+2026-03-18 19:29:27.100 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-18 19:35:00.863 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-18 20:01:26.265 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-03-18 20:02:06.591 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-03-18 21:19:08.314 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-03-18 21:23:49.698 [error] Cannot read properties of undefined (reading 'dimensions'): TypeError: Cannot read properties of undefined (reading 'dimensions')
+    at get dimensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:243732)
+    at get dimensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:46482)
+    at get dimensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:256726)
+    at Bf._updatePtyDimensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3705:3213)
+    at Ort._resizeXCallback (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3701:36605)
+    at Ort._debounceResizeX (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3701:18469)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:481:14481
+2026-03-18 21:24:02.415 [error] Cannot read properties of undefined (reading 'dimensions'): TypeError: Cannot read properties of undefined (reading 'dimensions')
+    at get dimensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:243732)
+    at get dimensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:46482)
+    at get dimensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/node_modules/@xterm/xterm/lib/xterm.js:1:256726)
+    at Bf._updatePtyDimensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3705:3213)
+    at Ort._resizeXCallback (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3701:36605)
+    at Ort._debounceResizeX (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3701:18469)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:481:14481
+2026-03-18 21:24:02.563 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.chatEditingSession

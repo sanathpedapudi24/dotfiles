@@ -1,0 +1,12 @@
+2026-03-18 16:51:14.360 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2026-03-18 16:51:14.361 [info] Getting Manifest... ms-azuretools.vscode-containers
+2026-03-18 16:51:14.493 [info] Installing extension: ms-azuretools.vscode-containers {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/assassin/.vscode/extensions/extensions.json","path":"/home/assassin/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.110.0","date":"2026-03-04T01:20:28.863Z"}}
+2026-03-18 16:51:14.494 [info] Installing extension: ms-vscode-remote.remote-containers {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/assassin/.vscode/extensions/extensions.json","path":"/home/assassin/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.110.0","date":"2026-03-04T01:20:28.863Z"}}
+2026-03-18 16:51:16.988 [info] Extension signature verification result for ms-azuretools.vscode-containers: Success. Internal Code: 0. Executed: true. Duration: 1107ms.
+2026-03-18 16:51:17.129 [info] Extracted extension to file:///home/assassin/.vscode/extensions/ms-azuretools.vscode-containers-2.4.1: ms-azuretools.vscode-containers
+2026-03-18 16:51:17.140 [info] Renamed to /home/assassin/.vscode/extensions/ms-azuretools.vscode-containers-2.4.1
+2026-03-18 16:51:17.278 [info] Extension signature verification result for ms-vscode-remote.remote-containers: Success. Internal Code: 0. Executed: true. Duration: 1047ms.
+2026-03-18 16:51:17.463 [info] Extracted extension to file:///home/assassin/.vscode/extensions/ms-vscode-remote.remote-containers-0.447.0: ms-vscode-remote.remote-containers
+2026-03-18 16:51:17.478 [info] Renamed to /home/assassin/.vscode/extensions/ms-vscode-remote.remote-containers-0.447.0
+2026-03-18 16:51:17.507 [info] Extension installed successfully: ms-azuretools.vscode-containers vscode-userdata:/home/assassin/.vscode/extensions/extensions.json
+2026-03-18 16:51:17.508 [info] Extension installed successfully: ms-vscode-remote.remote-containers vscode-userdata:/home/assassin/.vscode/extensions/extensions.json

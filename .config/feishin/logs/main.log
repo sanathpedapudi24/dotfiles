@@ -1,0 +1,49 @@
+[2026-02-04 17:10:18.911] [info]  [SYSTEM] Checking for update
+[2026-02-04 17:10:19.072] [info]  [SYSTEM] Generated new staging user ID: 9944d489-bde6-5be6-a6d4-6bfd648a81d3
+[2026-02-04 17:10:23.228] [info]  [SYSTEM] Update for version 1.4.2 is not available (latest version: 1.4.2, downgrade is disallowed).
+[2026-02-04 17:11:51.948] [info]  [SYSTEM] Checking for update
+[2026-02-04 17:11:54.030] [info]  [SYSTEM] Update for version 1.4.2 is not available (latest version: 1.4.2, downgrade is allowed).
+[2026-02-04 17:33:07.160] [info]  [SYSTEM] Checking for update
+[2026-02-04 17:33:10.510] [info]  [SYSTEM] Update for version 1.4.2 is not available (latest version: 1.4.2, downgrade is allowed).
+[2026-02-05 19:29:20.876] [info]  [SYSTEM] Checking for update
+[2026-02-05 19:29:24.161] [info]  [SYSTEM] Update for version 1.4.2 is not available (latest version: 1.4.2, downgrade is allowed).
+[2026-02-05 20:16:36.580] [info]  [SYSTEM] Checking for update
+[2026-02-05 20:16:37.949] [error] [SYSTEM] Error: Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124687)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-06 13:17:32.261] [info]  [SYSTEM] Checking for update
+[2026-02-06 13:17:35.277] [info]  [SYSTEM] Update for version 1.4.2 is not available (latest version: 1.4.2, downgrade is allowed).
+[2026-02-07 19:50:19.992] [info]  [SYSTEM] Checking for update
+[2026-02-07 19:50:20.357] [error] [SYSTEM] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124687)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-07 21:19:14.454] [info]  [SYSTEM] Checking for update
+[2026-02-07 21:19:14.815] [error] [SYSTEM] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124687)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-07 21:32:48.565] [info]  [SYSTEM] Checking for update
+[2026-02-07 21:32:48.927] [error] [SYSTEM] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124687)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-07 21:59:33.367] [info]  [SYSTEM] Checking for update
+[2026-02-07 21:59:33.809] [error] [SYSTEM] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124687)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-07 22:50:22.686] [info]  [SYSTEM] Checking for update
+[2026-02-07 22:50:23.182] [error] [SYSTEM] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124687)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-07 23:02:44.827] [info]  [SYSTEM] Checking for update
+[2026-02-07 23:02:45.381] [error] [SYSTEM] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124687)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-07 23:06:49.030] [info]  [SYSTEM] Checking for update
+[2026-02-07 23:06:49.555] [error] [SYSTEM] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124687)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-10 20:32:41.071] [info]  [SYSTEM] Checking for update
+[2026-02-10 20:32:45.755] [info]  [SYSTEM] Found version 1.5.0 (url: Feishin-linux-x86_64.AppImage, Feishin-linux-amd64.deb)
+[2026-02-10 20:32:45.756] [info]  [SYSTEM] Downloading update from Feishin-linux-x86_64.AppImage, Feishin-linux-amd64.deb
+[2026-02-16 19:39:35.517] [info]  [SYSTEM] Checking for update
+[2026-02-16 19:39:38.330] [info]  [SYSTEM] Found version 1.6.0 (url: Feishin-linux-x86_64.AppImage, Feishin-linux-amd64.deb)
+[2026-02-16 19:39:38.330] [info]  [SYSTEM] Downloading update from Feishin-linux-x86_64.AppImage, Feishin-linux-amd64.deb

@@ -1,0 +1,16 @@
+2026-03-09 10:56:47.887 [info] Started local extension host with pid 403768.
+2026-03-09 10:56:49.871 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-09 10:56:50.085 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-09 10:56:51.204 [error] [Extension Host] (node:403768) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-09 10:56:51.249 [error] [Extension Host] (node:403768) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-09 10:56:52.570 [info] [perf] Render performance baseline is 59ms
+2026-03-09 10:56:56.410 [warning] [LM] No provider registered for vendor anthropic
+2026-03-09 10:56:56.410 [warning] [LM] No provider registered for vendor xai
+2026-03-09 10:56:56.411 [warning] [LM] No provider registered for vendor gemini
+2026-03-09 10:56:56.411 [warning] [LM] No provider registered for vendor openrouter
+2026-03-09 10:56:56.412 [warning] [LM] No provider registered for vendor openai
+2026-03-09 10:56:56.412 [warning] [LM] No provider registered for vendor ollama
+2026-03-09 10:56:56.412 [warning] [LM] No provider registered for vendor customoai
+2026-03-09 10:56:56.413 [warning] [LM] No provider registered for vendor azure
+2026-03-09 11:13:02.964 [error] An unknown error occurred. Please consult the log for more details.

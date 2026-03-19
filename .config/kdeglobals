@@ -1,0 +1,123 @@
+[ColorEffects:Disabled]
+Color=#8e9099
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=#44474f
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=#282a2f
+BackgroundNormal=#1e1f25
+DecorationFocus=#adc6ff
+DecorationHover=#adc6ff
+ForegroundActive=#adc6ff
+ForegroundInactive=#8e9099
+ForegroundLink=#adc6ff
+ForegroundNegative=#ffb4ab
+ForegroundNeutral=#debcdf
+ForegroundNormal=#e2e2e9
+ForegroundPositive=#bfc6dc
+ForegroundVisited=#bfc6dc
+
+[Colors:Selection]
+BackgroundAlternate=#adc6ff
+BackgroundNormal=#adc6ff
+DecorationFocus=#adc6ff
+DecorationHover=#adc6ff
+ForegroundActive=#102f60
+ForegroundInactive=#8e9099
+ForegroundLink=#102f60
+ForegroundNegative=#ffb4ab
+ForegroundNeutral=#debcdf
+ForegroundNormal=#102f60
+ForegroundPositive=#bfc6dc
+ForegroundVisited=#bfc6dc
+
+[Colors:Tooltip]
+BackgroundAlternate=#33353a
+BackgroundNormal=#33353a
+DecorationFocus=#adc6ff
+DecorationHover=#adc6ff
+ForegroundActive=#adc6ff
+ForegroundInactive=#8e9099
+ForegroundLink=#adc6ff
+ForegroundNegative=#ffb4ab
+ForegroundNeutral=#debcdf
+ForegroundNormal=#e2e2e9
+ForegroundPositive=#bfc6dc
+ForegroundVisited=#bfc6dc
+
+[Colors:View]
+BackgroundAlternate=#1a1b20
+BackgroundNormal=#1e1f25
+DecorationFocus=#adc6ff
+DecorationHover=#adc6ff
+ForegroundActive=#e2e2e9
+ForegroundInactive=#e2e2e9
+ForegroundLink=#e2e2e9
+ForegroundNegative=#e2e2e9
+ForegroundNeutral=#e2e2e9
+ForegroundNormal=#e2e2e9
+ForegroundPositive=#e2e2e9
+ForegroundVisited=#e2e2e9
+
+[Colors:Window]
+BackgroundAlternate=#1e1f25
+BackgroundNormal=#111318
+DecorationFocus=#adc6ff
+DecorationHover=#adc6ff
+ForegroundActive=#adc6ff
+ForegroundInactive=#8e9099
+ForegroundLink=#adc6ff
+ForegroundNegative=#ffb4ab
+ForegroundNeutral=#debcdf
+ForegroundNormal=#e2e2e9
+ForegroundPositive=#bfc6dc
+ForegroundVisited=#bfc6dc
+
+[General]
+ColorScheme=MaterialYou
+
+[Icons]
+Theme=Numix-Circle
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=210
+View Style=DetailTree
+
+[UiSettings]
+ColorScheme=MaterialYou
+
+[WM]
+activeBackground=#282a2f
+activeBlend=#e2e2e9
+activeForeground=#e2e2e9
+inactiveBackground=#111318
+inactiveBlend=#8e9099
+inactiveForeground=#8e9099

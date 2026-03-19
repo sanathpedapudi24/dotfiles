@@ -1,0 +1,123 @@
+2026-03-07 10:12:31.295 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-07 10:12:31.295 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-07 10:12:31.295 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-07 10:12:31.295 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-07 10:12:31.557 [info] Logged in as sanathpedapudi24
+2026-03-07 10:12:31.563 [info] Using the Electron fetcher.
+2026-03-07 10:12:33.944 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-03-07 10:12:35.007 [info] [CopilotCLI] MCP server started. Lock file: /home/assassin/.local/state/.copilot/ide/f0bf7157-e50e-4127-a383-c7f6630b79f6.lock
+2026-03-07 10:12:35.007 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-lW0Tx3/mcp.sock#%2Fmcp
+2026-03-07 10:12:35.039 [info] Got Copilot token for sanathpedapudi24
+2026-03-07 10:12:35.039 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-07 10:12:35.054 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-07 10:12:35.056 [info] activationBlocker from 'languageModelAccess' took for 1180ms
+2026-03-07 10:12:35.204 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-07 10:12:35.204 [info] copilot token sku: free_limited_copilot
+2026-03-07 10:12:35.204 [info] ConversationFeature: Activating contributions
+2026-03-07 10:12:35.204 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-07 10:12:35.227 [info] Registering default platform agent...
+2026-03-07 10:12:35.228 [info] [ChatDebugLogProvider] Registering chat debug log provider
+2026-03-07 10:12:35.228 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-07 10:12:35.228 [info] [code-referencing] Public code references are enabled.
+2026-03-07 10:12:35.228 [info] activationBlocker from 'conversationFeature' took for 1387ms
+2026-03-07 10:12:35.365 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-07 10:12:35.413 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-07 10:12:35.417 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-07 10:12:35.489 [info] Fetched model metadata in 1583ms f34b7e5d-7363-4c19-880e-295cd650dc71
+2026-03-07 10:12:35.845 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-07 10:12:35.847 [info] ccreq:2e6191db.copilotmd | markdown
+2026-03-07 10:12:58.037 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-07 10:12:58.037 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-07 10:12:58.037 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-07 10:12:58.037 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-07 10:12:58.086 [info] Logged in as sanathpedapudi24
+2026-03-07 10:12:58.091 [info] Using the Electron fetcher.
+2026-03-07 10:12:58.957 [info] Got Copilot token for sanathpedapudi24
+2026-03-07 10:12:58.957 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-07 10:12:59.038 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-07 10:13:02.530 [info] ConversationFeature: Copilot token already available
+2026-03-07 10:13:02.531 [info] ConversationFeature: Activating contributions
+2026-03-07 10:13:02.531 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-07 10:13:02.555 [info] Registering default platform agent...
+2026-03-07 10:13:02.557 [info] [ChatDebugLogProvider] Registering chat debug log provider
+2026-03-07 10:13:02.560 [info] activationBlocker from 'conversationFeature' took for 106ms
+2026-03-07 10:13:02.582 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-07 10:13:02.585 [info] activationBlocker from 'languageModelAccess' took for 123ms
+2026-03-07 10:13:02.994 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-07 10:13:03.559 [info] Fetched model metadata in 1055ms 2ecb3c79-197f-4fa3-b67b-805f7dde7f84
+2026-03-07 10:13:03.574 [info] [CopilotCLI] MCP server started. Lock file: /home/assassin/.local/state/.copilot/ide/b997f57a-8d0e-4842-99c5-69d89c516a0f.lock
+2026-03-07 10:13:03.574 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-hEkdTk/mcp.sock#%2Fmcp
+2026-03-07 10:13:03.582 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-07 10:13:03.583 [info] ccreq:aa99fff4.copilotmd | markdown
+2026-03-07 10:13:04.737 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-07 10:13:04.746 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-07 10:13:04.746 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-07 10:15:06.913 [info] ccreq:cbc8d084.copilotmd | markdown
+2026-03-07 10:15:07.020 [info] ccreq:cbb3903b.copilotmd | markdown
+2026-03-07 10:15:07.068 [info] ccreq:4631c9cc.copilotmd | markdown
+2026-03-07 10:15:07.165 [info] ccreq:7e6ca666.copilotmd | markdown
+2026-03-07 10:15:07.174 [info] ccreq:2b37af27.copilotmd | markdown
+2026-03-07 10:15:07.324 [info] ccreq:1dcbd4c3.copilotmd | markdown
+2026-03-07 10:15:07.346 [info] ccreq:29daadb1.copilotmd | markdown
+2026-03-07 10:15:08.340 [info] ccreq:11ca0be1.copilotmd | markdown
+2026-03-07 10:15:08.627 [info] ccreq:1cf57998.copilotmd | markdown
+2026-03-07 10:15:08.747 [warning] [relatedFiles] unknown language html
+2026-03-07 10:15:12.475 [info] message 0 returned. finish reason: [stop]
+2026-03-07 10:15:12.476 [info] request done: requestId: [ed0be18a-c649-48be-93c1-e250eaa7c688] model deployment ID: []
+2026-03-07 10:15:12.875 [info] ccreq:4b136135.copilotmd | success | nes-callisto-003 | 4134ms | [XtabProvider]
+2026-03-07 10:15:12.881 [info] ccreq:12ca3282.copilotmd | markdown
+2026-03-07 10:17:20.265 [info] ccreq:9d95b447.copilotmd | markdown
+2026-03-07 10:17:21.820 [info] ccreq:74c602e7.copilotmd | markdown
+2026-03-07 10:17:21.848 [info] ccreq:69bf00eb.copilotmd | markdown
+2026-03-07 10:17:21.955 [info] ccreq:e3c05e02.copilotmd | markdown
+2026-03-07 10:17:21.963 [info] ccreq:23d2f8d4.copilotmd | markdown
+2026-03-07 10:17:22.003 [info] ccreq:95eeb6f9.copilotmd | markdown
+2026-03-07 10:17:22.027 [info] ccreq:dbab5d50.copilotmd | markdown
+2026-03-07 10:17:22.086 [info] ccreq:91361f56.copilotmd | markdown
+2026-03-07 10:17:22.202 [info] ccreq:30258c9d.copilotmd | markdown
+2026-03-07 10:17:22.387 [info] ccreq:c0f41e03.copilotmd | markdown
+2026-03-07 10:17:22.534 [info] [fetchCompletions] Request 3f5deeae-0f43-4973-ab2a-04f9830c20e7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 2977.1419729999616ms
+2026-03-07 10:17:22.545 [info] [fetchCompletions] Request 11d2ec73-f7b0-4d3f-9fa6-7f2db837c15b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 2646.4841830000514ms
+2026-03-07 10:17:22.551 [info] [fetchCompletions] Request 19327c4d-e998-4f50-9c17-9fdeb3fc2251 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 4270.78697299998ms
+2026-03-07 10:17:22.562 [info] ccreq:92d1c3a7.copilotmd | markdown
+2026-03-07 10:17:22.611 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-07 10:17:24.585 [info] Request ID for failed request: 022cde8e-3919-4208-944c-aefa6449db4b
+2026-03-07 10:17:24.590 [error] Server error: 400 Bad request: failed to decode request: bad request: i/o timeout
+2026-03-07 10:17:24.590 [error] Request Failed: 400 Bad request: failed to decode request: bad request: i/o timeout
+2026-03-07 10:17:25.024 [info] ccreq:0bd12fb3.copilotmd | badRequest | nes-callisto-003 | 4652ms | [XtabProvider]
+2026-03-07 10:17:25.037 [info] ccreq:9ddd84d7.copilotmd | markdown
+2026-03-07 10:17:25.038 [info] ccreq:e5c3fb46.copilotmd | markdown
+2026-03-07 10:17:25.038 [info] ccreq:aa6c2048.copilotmd | markdown
+2026-03-07 10:17:25.039 [info] ccreq:1eb550c2.copilotmd | markdown
+2026-03-07 10:17:25.039 [info] ccreq:68120cbf.copilotmd | markdown
+2026-03-07 10:17:25.039 [info] ccreq:6d361332.copilotmd | markdown
+2026-03-07 10:17:25.039 [info] ccreq:9b5a54e1.copilotmd | markdown
+2026-03-07 10:17:25.039 [info] ccreq:9de59bb9.copilotmd | markdown
+2026-03-07 10:17:25.039 [info] ccreq:243308ba.copilotmd | markdown
+2026-03-07 10:17:25.039 [info] ccreq:009b7a04.copilotmd | markdown
+2026-03-07 10:17:25.039 [info] ccreq:26cec637.copilotmd | markdown
+2026-03-07 10:17:25.390 [info] [fetchCompletions] Request 0fa1f8ca-fee1-4c19-a96d-846908a2969d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 883.8466820000322ms
+2026-03-07 10:17:25.392 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-07 10:17:25.411 [info] ccreq:e88d3911.copilotmd | markdown
+2026-03-07 10:17:25.851 [info] [fetchCompletions] Request 1ef5d72b-fcc9-4e65-9a41-ec6569574591 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 408.2402069999953ms
+2026-03-07 10:17:25.855 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-07 10:17:25.961 [info] ccreq:6c9710f1.copilotmd | markdown
+2026-03-07 10:17:28.667 [info] ccreq:aba45b00.copilotmd | markdown
+2026-03-07 10:17:29.164 [info] ccreq:0de39493.copilotmd | markdown
+2026-03-07 10:17:29.268 [info] message 0 returned. finish reason: [stop]
+2026-03-07 10:17:29.268 [info] request done: requestId: [55558e57-3bef-4bb6-b5ad-d177bc5fcf96] model deployment ID: []
+2026-03-07 10:17:29.272 [info] ccreq:712ac8ff.copilotmd | success | nes-callisto-003 | 500ms | [XtabProvider]
+2026-03-07 10:17:29.423 [info] ccreq:04597a31.copilotmd | markdown
+2026-03-07 10:17:29.806 [info] message 0 returned. finish reason: [stop]
+2026-03-07 10:17:29.810 [info] request done: requestId: [dcb22bb2-a1b7-4435-b5f1-4d9f9cfc5d34] model deployment ID: []
+2026-03-07 10:17:29.813 [info] ccreq:62966a5e.copilotmd | success | nes-callisto-003 | 293ms | [XtabProvider]
+2026-03-07 10:17:30.389 [info] ccreq:4aaf3c1e.copilotmd | markdown
+2026-03-07 10:18:19.443 [info] [fetchCompletions] Request 213d5f5e-caf0-40a9-9c8a-5a1e0fdac400 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 400 status after 2299.3247550000087ms
+2026-03-07 10:18:19.453 [warning] [fetchCompletions] Response status was 400: Bad request: bad request: i/o timeout
+
+2026-03-07 10:18:19.454 [error] [fetchCompletions] Unhandled status from server: 400 Bad request: bad request: i/o timeout
+2026-03-07 10:18:19.463 [info] ccreq:08a910bc.copilotmd | markdown
+2026-03-07 10:18:20.391 [info] message 0 returned. finish reason: [stop]
+2026-03-07 10:18:20.391 [info] request done: requestId: [a9df9a0c-7f16-48d7-8a61-389f83a2069b] model deployment ID: []
+2026-03-07 10:18:20.853 [info] ccreq:06a406fc.copilotmd | success | nes-callisto-003 | 1597ms | [XtabProvider]
+2026-03-07 10:18:20.859 [info] ccreq:64a83837.copilotmd | markdown

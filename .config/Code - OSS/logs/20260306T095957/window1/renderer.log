@@ -1,0 +1,10 @@
+2026-03-06 09:59:59.578 [info] Started local extension host with pid 79759.
+2026-03-06 10:00:02.374 [info] [perf] Render performance baseline is 227ms
+2026-03-06 10:06:12.079 [error] [Extension Host] (node:79759) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-06 10:06:36.344 [error] [chat setup] install: error undefined
+2026-03-06 10:06:39.366 [error] [chat setup] install: error undefined
+2026-03-06 10:06:47.642 [error] [chat setup] install: error NotFound: The extension 'GitHub.copilot-chat' cannot be installed because it was not found.
+2026-03-06 10:07:00.359 [error] [chat setup] install: error undefined
+2026-03-06 10:07:03.164 [error] [chat setup] install: error NotFound: The extension 'GitHub.copilot-chat' cannot be installed because it was not found.
+2026-03-06 10:09:47.237 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

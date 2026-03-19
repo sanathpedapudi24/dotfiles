@@ -1,0 +1,19 @@
+2026-03-07 09:39:28.388 [info] Started local extension host with pid 456601.
+2026-03-07 09:39:28.537 [info] Started initializing default profile extensions in extensions installation folder. file:///home/assassin/.vscode/extensions
+2026-03-07 09:39:28.923 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/assassin/.vscode/extensions
+2026-03-07 09:39:29.843 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-07 09:39:30.219 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-07 09:39:33.506 [info] [perf] Render performance baseline is 224ms
+2026-03-07 09:42:11.167 [error] [chat setup] signIn: error Error: Cancelled
+2026-03-07 09:42:56.539 [error] [Extension Host] (node:456601) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-07 09:42:56.542 [error] [Extension Host] (node:456601) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-07 09:49:55.503 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.autoReply, chat.contextUsage.enabled, chat.customizationsMenu.enabled, chat.exploreAgent.defaultModel, chat.growthNotification.enabled, chat.plugins.enabled, chat.plugins.marketplaces, chat.plugins.paths, chat.statusWidget.anonymous, chat.upvoteAnimation, chat.useClaudeHooks, accessibility.signals.chatResponseReceived, accessibility.signals.chatUserActionRequired, github.copilot.advanced
+2026-03-07 09:59:40.547 [error] Error fetching chat session options Canceled
+2026-03-07 09:59:41.924 [info] Started local extension host with pid 542018.
+2026-03-07 09:59:43.550 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-07 09:59:43.943 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-07 09:59:46.269 [error] [Extension Host] (node:542018) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-07 09:59:46.288 [error] [Extension Host] (node:542018) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-07 09:59:46.692 [info] [perf] Render performance baseline is 272ms

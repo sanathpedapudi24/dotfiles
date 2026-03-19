@@ -1,0 +1,6 @@
+2026-03-18 16:46:10.141 [info] Revived process, old id e27b5ed57de572db6d74cd8b1796c929-1 -> new id 1
+2026-03-18 16:46:10.457 [info] Expanding terminal instance, old id e27b5ed57de572db6d74cd8b1796c929-1 -> new id 1
+2026-03-18 16:46:11.154 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2026-03-18 16:46:11.155 [info] Persistent process reconnection "1"
+2026-03-18 16:46:11.307 [error] Failed to set sticky bit on /tmp/assassin-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/assassin-code-zsh'
+2026-03-18 16:46:11.344 [info] Persistent process "1": Replaying 287 chars and 1 size events

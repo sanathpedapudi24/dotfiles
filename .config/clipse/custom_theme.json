@@ -1,0 +1,17 @@
+{
+    "UseCustomTheme": true,
+    "DimmedDesc": "#8e9099",
+    "DimmedTitle": "#c4c6d0",
+    "FilterDateFg": "#debcdf",
+    "PinIndicatorFg": "#adc6ff",
+    "SelectedBorderFg": "#adc6ff",
+    "SelectedDescFg": "#102f60",
+    "SelectedTitleBg": "#adc6ff",
+    "SelectedTitleFg": "#102f60",
+    "StatusBarActiveFg": "#adc6ff",
+    "StatusBarBg": "#1e1f25",
+    "StatusBarFg": "#e2e2e9",
+    "TitleFg": "#e2e2e9",
+    "NormalDescFg": "#c4c6d0",
+    "NormalTitleFg": "#e2e2e9"
+}
